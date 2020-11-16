@@ -8,4 +8,4 @@ COPY tinc-up tinc-up
 COPY tinc-down tinc-down
 COPY tinc.conf tinc.conf    
 
-CMD [ "tincd" ]
+# CMD [ "tincd" ]
