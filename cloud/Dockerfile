@@ -7,5 +7,5 @@ COPY rsa_key.priv rsa_key.priv
 COPY tinc-up tinc-up
 COPY tinc-down tinc-down
 COPY tinc.conf tinc.conf    
-
+RUN chmod +x tinc-*
 # CMD [ "tincd" ]
